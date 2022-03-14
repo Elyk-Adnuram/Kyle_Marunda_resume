@@ -16,6 +16,7 @@ body {
 }
 /* styling of the footer */
 .footer {
-  width: 45%;
+  align-self: center;
+  width: 40%;
   margin: auto;
 }
