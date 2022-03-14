@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!--JQUERY CDN LINK-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  
+    <!--LINKING OF BOOTSTRAP VIA CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />  <!--LINKING OF CSS-->
+    <link href="styles.css" rel="stylesheet">
+    <title>Your favourite webpage</title>
+  </head>
+  <body>
+       <!--NAVBAR PLUS PAGE HEADER-->
+    
+      <div class="container">
+        <header
+          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        >
+          <a
+            href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap" />
+            </svg>
+            <span class="fs-4" ><span id="top"> Kyle Patrick Marunda </span></span>
+          </a>
+
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a href="#me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item">
+              <a href="#workexperience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          </ul>
+        </header>
+      </div>
+    
+    <br>
+    <br>
+    <main>
+         <!--SHORT BIO OF MYSELF-->
+      <section class="about_me">
+        <h2 class="subheadings" id="me">My Ethos</h2>
+        <p>
+          I am firm believer in the following phrase, "anything is possible in
+          life if you work hard for it and never give up". This is the
+          philosophy that I have applied in my life and continue to apply
+          everyday. Together with this philosophy is the importance of being
+          open and always willing to learn new things. Life-long learning is an
+          important part of my outlook on life therefore I am always willing to
+          learn and improve myself wherever the opportunity arises. I am also a
+          team player and believe that through working together we can achieve
+          more. I consider myself a self-motivated, consummate professional and am
+          able to work well under pressure and in stressful situations.<br>
+          <br />
+          My goal is to use the knowledge, experience and skills that I have
+          attained to add tangible wherever I find myself both in my
+          professional and personal life. I know that I will add value to any
+          team due to my positivity and willingness to go the extra mile. I have
+          had years of experience in customer service and sales which will
+          indirectly complement my career in the tech industry. <br />
+
+          As Forest Gump said, “Life is like a box of chocolates, you never know
+          what you're going to get”, so check out the rest of my page to have a
+          glimpse of what you're gonna get from me.
+        </p>
+      </section>
+      <br>
+      <br> 
+       <!--DESCRIPTION OF MY SKILLS-->
+      <section class="Skills">
+        <h2 class="subheadings" id="skills">My Skills</h2>
+        <p>
+          "What I do have are a very particular set of skills. Skills I have
+          acquired over a very long career." - Liam Neeson, TAKEN. I might not
+          be able to rescue you from terrorists although I would try my best but
+          I can definitely assist your team or company with achieving it's
+          goals. Below are some of the technologies and skills that I have
+          acquired:
+        </p>
+      
+      <!--LIST OF SKILLS USING BOOTSTRAP-->
+      <div class="skills list">
+        <div class="list-group">
+          <a
+            href="https://github.com/Elyk-Adnuram/" target="blank" rel="noopener noreferrer"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <img
+              src="./images/css.jpg"
+              alt="html_css_logo"
+              width="50"
+              height="50"
+              class="rounded-circle flex-shrink-0"
+            />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">HTML and CSS</h6>
+                <p class="mb-0 opacity-75">
+                  I have combined these technologies since they are the backbone
+                  of the web.
+                </p>
+              </div>
+              <small class="opacity-50 text-nowrap"> </small>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Elyk-Adnuram/" target="blank" rel="noopener noreferrer"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <img
+              src="./images/js.jpg"
+              alt="js_logo"
+              width="50"
+              height="50"
+              class="rounded-circle flex-shrink-0"
+            />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">Javascript</h6>
+                <p class="mb-0 opacity-75">
+                  JavaScript is the world's most popular programming language.
+                </p>
+              </div>
+              <small class="opacity-50 text-nowrap"></small>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Elyk-Adnuram/" target="blank" rel="noopener noreferrer"
+            class="list-group-item list-group-item-action d-flex gap-3 py-3"
+            aria-current="true"
+          >
+            <img
+              src="./images/react.png"
+              alt="react_logo"
+              width="50"
+              height="50"
+              class="rounded-circle flex-shrink-0"
+            />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0">REACT.js</h6>
+                <p class="mb-0 opacity-75">
+                  REACT is a JavaScript library and can be used to create
+                  front-end and back-end applications although it is mainly used
+                  for the front-end
+                </p>
+              </div>
+              <small class="opacity-50 text-nowrap"></small>
+            </div>
+          </a>
+        </div>
+        <a
+          href="https://github.com/Elyk-Adnuram/" target="blank" rel="noopener noreferrer"
+          class="list-group-item list-group-item-action d-flex gap-3 py-3"
+          aria-current="true"
+        >
+          <img
+            src="./images/bootstrap.jpg"
+            alt="bootstrap_logo"
+            width="50"
+            height="50"
+            class="rounded-circle flex-shrink-0"
+          />
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0">Bootstrap</h6>
+              <p class="mb-0 opacity-75">
+                Bootstrap is the world's most famous CSS framework.
+              </p>
+            </div>
+            <small class="opacity-50 text-nowrap"></small>
+          </div>
+        </a>
+        <a
+          href="https://github.com/Elyk-Adnuram/" target="blank" rel="noopener noreferrer"
+          class="list-group-item list-group-item-action d-flex gap-3 py-3"
+          aria-current="true"
+        >
+          <img
+            src="./images/sales.png"
+            alt="sales_logo"
+            width="50"
+            height="50"
+            class="rounded-circle flex-shrink-0"
+          />
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0">Sales</h6>
+              <p class="mb-0 opacity-75">
+                Sales encompasses all of the following skills: Communication,
+                Problem-solving, Negotiation, Collaboration, Persuasion
+              </p>
+            </div>
+            <small class="opacity-50 text-nowrap"></small>
+          </div>
+        </a>
+        <a
+          href="#"
+          class="list-group-item list-group-item-action d-flex gap-3 py-3"
+          aria-current="true"
+        >
+          <img
+            src="./images/customer.jpg"
+            alt="customer_service_logo"
+            width="50"
+            height="50"
+            class="rounded-circle flex-shrink-0"
+          />
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0">Customer Service</h6>
+              <p class="mb-0 opacity-75">
+                Identifying and fulfilling clients' needs and exceeding
+                expectations.
+              </p>
+            </div>
+            <small class="opacity-50 text-nowrap"></small>
+          </div>
+        </a>
+      </div>
+    </section>
+      <br>
+      <br>
+      <div class="education">
+        <h2 class="subheadings" id="education">My Education</h2>
+        <p>Below are some of my formal academic qualifications they exclude the lessons learnt from the university of life :)</p>
+          <!--LIST OF EDUCATIONAL ACCOMPLISHMENTS USING BOOTSTRAP-->
+        <a
+        href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer"
+        class="list-group-item list-group-item-action d-flex gap-3 py-3"
+        aria-current="true"
+      >
+        <img
+          src="./images/hypedev.png"
+          alt="hyperiondev logo"
+          width="50"
+          height="50"
+          class="rounded-circle flex-shrink-0"
+        />
+        <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0"> HyperionDev</h6>
+              <p class="mb-0 opacity-75">
+                Full Stack Web Development Bootcamp. Completed 2022.
+              </p>
+            </div>
+            <small class="opacity-50 text-nowrap"></small>
+          </div>
+        
+          <a
+        href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer"
+        class="list-group-item list-group-item-action d-flex gap-3 py-3"
+        aria-current="true"
+      >
+        <img
+          src="./images/cput.png"
+          alt="cput logo"
+          width="50"
+          height="50"
+          class="rounded-circle flex-shrink-0"
+        />
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0"> BTech Degree, Management and Finance</h6>
+              <p class="mb-0 opacity-75">
+                Cape Peninsula University of Technology. Completed 2009.
+              </p>
+            </div>
+            <small class="opacity-50 text-nowrap"></small>
+          </div>
+        </a>
+        
+        <a
+        href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer"
+        class="list-group-item list-group-item-action d-flex gap-3 py-3"
+        aria-current="true"
+      >
+        <img
+          src="./images/high_school.jpg"
+          alt="html_css_logo"
+          width="50"
+          height="50"
+          class="rounded-circle flex-shrink-0"
+        />
+         
+          <div class="d-flex gap-2 w-100 justify-content-between">
+            <div>
+              <h6 class="mb-0">High School Diploma</h6>
+              <p class="mb-0 opacity-75">
+                Rocklands High School. Matriculated 2005
+              </p>
+            </div>
+            <small class="opacity-50 text-nowrap"></small>
+          </div>
+        </a>
+    </div>
+<br>
+<br>
+      <section class="workexperience" >
+        <h2 class="subheadings" id="workexperience">My Work Experience</h2>
+          <p>The below is a summary of work experience across various industries. For more detailed info, feel free to check my <a href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer">Linkedin</a> page</p>
+
+      
+        <!--LIST OF WORK EXPERIENCE USING BOOTSTRAP-->
+       
+          <a
+          href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer"
+          class="list-group-item list-group-item-action d-flex gap-3 py-3"
+          aria-current="true"
+        >
+          <img
+            src="./images/bank.jpg"
+            alt="bank stock photo"
+            width="50"
+            height="50"
+            class="rounded-circle flex-shrink-0"
+          />
+            <div class="d-flex gap-2 w-100 justify-content-between">
+              <div>
+                <h6 class="mb-0"> Standard Bank</h6>
+                <p class="mb-0 opacity-75">
+                  My roles included Universal Banker and Cash Consultant
+                </p>
+              </div>
+              <small class="opacity-50 text-nowrap"></small>
+            </div>
+          </a>
+
+        
+        <a
+      href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer"
+      class="list-group-item list-group-item-action d-flex gap-3 py-3"
+      aria-current="true"
+    >
+      <img
+        src="./images/moving.jpg"
+        alt="moving logo"
+        width="50"
+        height="50"
+        class="rounded-circle flex-shrink-0"
+      />
+        <div class="d-flex gap-2 w-100 justify-content-between">
+          <div>
+            <h6 class="mb-0"> Overseas Move Management (AGS Group)</h6>
+            <p class="mb-0 opacity-75">
+              My roles included International Move Co-ordinator and Administrative Controller
+            </p>
+          </div>
+          <small class="opacity-50 text-nowrap"></small>
+        </div>
+      </a>
+    </section>
+      <br>
+      <br>
+      <section class="contacts">
+
+      
+<h2 class="subheadings" id="contacts">My Contacts</h2>
+
+<p>Check out my projects via my <a href="https://github.com/Elyk-Adnuram" target="blank" rel="noopener noreferrer"> Github </a> page.</p>
+<p>For a detailed look at my education and work history, head over to my <a href="https://www.linkedin.com/in/kyle-marunda-58409439/" target="blank" rel="noopener noreferrer">Linkedin</a> page.</p>
+<p>Feel free to <a href="mailto:kmarunda@gmail.com" target="blank" rel="noopener noreferrer"> email</a> me for any more information.  </p>
+      </section>
+       
+    </main>
+<br>
+  <!--TAKES USER TO THE TOP OF PAGE-->
+    <p ><a href="#top">Back to top </a></p>
+    <br>
+    <footer class="footer">2022. <img src="images/background_image.jpg" width="150" height="150" alt="picture of"> Kyle Patrick Marunda 
+         </footer>
+          <!--LINK TO JS FILE-->
+        <script src="main.js"></script>
+  </body>
+</html>
